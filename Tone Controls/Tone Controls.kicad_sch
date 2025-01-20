@@ -2638,6 +2638,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 208.28) (xy 49.53 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0664b6-3bcd-4ecd-ada6-7c2753ea6944")
+	)
+	(wire
+		(pts
 			(xy 247.65 95.25) (xy 247.65 92.71)
 		)
 		(stroke
@@ -3568,7 +3578,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 198.12) (xy 45.72 198.12)
+			(xy 40.64 198.12) (xy 38.1 198.12)
 		)
 		(stroke
 			(width 0)
@@ -3578,7 +3588,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 201.93) (xy 48.26 198.12)
+			(xy 40.64 201.93) (xy 40.64 198.12)
 		)
 		(stroke
 			(width 0)
@@ -3668,7 +3678,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 193.04) (xy 45.72 193.04)
+			(xy 38.1 193.04) (xy 49.53 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4144,7 +4154,7 @@
 	)
 	(global_label "INPUT"
 		(shape input)
-		(at 46.99 193.04 0)
+		(at 53.34 199.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4152,9 +4162,9 @@
 			)
 			(justify left)
 		)
-		(uuid "1b9b4c70-f3f8-4b20-b2b2-7630b6dc811f")
+		(uuid "83791dc4-1fa3-4061-8ac4-7b1b3edf1231")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.4786 193.04 0)
+			(at 61.8286 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,6 +4209,28 @@
 		(uuid "a4003874-e97e-4583-87a1-9c967801c690")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 313.6681 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM IN"
+		(shape input)
+		(at 49.53 208.28 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dac82db0-bf26-40ba-b7e4-f31847e370cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.53 217.7966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +4892,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 201.93 0)
+		(at 40.64 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4869,7 +4901,7 @@
 		(fields_autoplaced yes)
 		(uuid "18d8280d-10c8-4a1c-87ee-e45afa84aa47")
 		(property "Reference" "#PWR07"
-			(at 48.26 208.28 0)
+			(at 40.64 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +4910,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 207.01 0)
+			(at 40.64 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +4918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 201.93 0)
+			(at 40.64 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4895,7 +4927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 201.93 0)
+			(at 40.64 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +4936,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 201.93 0)
+			(at 40.64 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7440,6 +7472,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 49.53 199.39 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a150e272-06e2-460e-98b8-1daedfc75dbc")
+		(property "Reference" "JP2"
+			(at 57.404 209.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Source Select"
+			(at 64.77 206.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 49.53 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "340b3050-33e8-4f5c-bca9-ae457e2081d2")
+		)
+		(pin "2"
+			(uuid "019f41a6-708e-4d52-9b02-9d3ce251f418")
+		)
+		(pin "1"
+			(uuid "024643e6-73db-41df-82bb-55664bc0c75d")
+		)
+		(instances
+			(project "Tone Controls"
+				(path "/3897f13b-fd60-416d-8efd-dedd3c4d72d9"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 165.1 81.28 90)
 		(unit 1)
@@ -8566,7 +8670,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack")
-		(at 38.1 195.58 0)
+		(at 30.48 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8575,7 +8679,7 @@
 		(fields_autoplaced yes)
 		(uuid "d518043b-71ab-4c85-80c2-3d18ab223296")
 		(property "Reference" "J1"
-			(at 38.1 186.69 0)
+			(at 30.48 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8583,7 +8687,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack"
-			(at 38.1 189.23 0)
+			(at 30.48 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8591,7 +8695,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_SwitchcraftConxall_RAPC10U_Horizontal"
-			(at 39.37 196.596 0)
+			(at 31.75 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8600,7 +8704,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 196.596 0)
+			(at 31.75 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8609,7 +8713,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
-			(at 38.1 195.58 0)
+			(at 30.48 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
