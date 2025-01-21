@@ -3365,7 +3365,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 210.82) (xy 59.69 210.82)
+			(xy 46.99 210.82) (xy 59.69 210.82)
 		)
 		(stroke
 			(width 0)
@@ -4788,8 +4788,20 @@
 		(uuid 2116c4da-fcda-472f-a2cf-aebf133403cd)
 	)
 	(rectangle
-		(start 28.702 160.528)
-		(end 77.724 233.426)
+		(start 28.448 218.948)
+		(end 77.47 262.382)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2a460e90-e8c2-455e-b6ff-d05b487675d1)
+	)
+	(rectangle
+		(start 28.702 173.228)
+		(end 77.724 216.916)
 		(stroke
 			(width 0)
 			(type default)
@@ -4919,7 +4931,7 @@
 	)
 	(text "INPUT"
 		(exclude_from_sim no)
-		(at 52.324 167.386 0)
+		(at 52.324 179.832 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5000,6 +5012,18 @@
 			)
 		)
 		(uuid "db9ee347-aa3f-4e92-84f2-5aded993451f")
+	)
+	(text "PICKUP TO STM"
+		(exclude_from_sim no)
+		(at 52.07 223.52 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f5d50150-40dc-4cc1-8811-735e41a3be44")
 	)
 	(label "4.5V_ref"
 		(at 209.55 100.33 180)
@@ -5198,9 +5222,9 @@
 			)
 		)
 	)
-	(global_label "STM OUT"
+	(global_label "PICKUP_OUT"
 		(shape input)
-		(at 45.72 210.82 180)
+		(at 44.45 242.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5208,9 +5232,9 @@
 			)
 			(justify right)
 		)
-		(uuid "379a012a-bafa-4d83-a83f-e87d2ced0728")
+		(uuid "0ca86c31-7300-4882-a0a5-0752772f6a31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.5101 210.82 0)
+			(at 29.8533 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,6 +5284,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM OUT"
+		(shape input)
+		(at 46.99 210.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abfe3582-5b5f-4d12-871f-7b417fa3717f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.7801 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5513,7 +5559,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 441.96 187.96 0)
+		(at 57.15 245.11 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5521,7 +5567,7 @@
 		(dnp no)
 		(uuid "13055cd4-1fba-4a63-b1ec-083969eae191")
 		(property "Reference" "U1"
-			(at 441.96 177.8 0)
+			(at 57.15 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,7 +5575,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 441.96 180.34 0)
+			(at 57.15 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +5583,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 441.96 187.96 0)
+			(at 57.15 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +5592,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 441.96 187.96 0)
+			(at 57.15 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,7 +5601,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 441.96 187.96 0)
+			(at 57.15 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
