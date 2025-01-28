@@ -1,0 +1,33 @@
+#,Reference,Value,Qty,Description
+1,"C1,C3",47uF,2,"Polarized capacitor, small US symbol"
+2,"C2,C6,C14",470nF,3,Unpolarized capacitor
+3,"C4,C11,C12",50pF,3,Unpolarized capacitor
+4,"C5,C13,C17",47nF,3,Unpolarized capacitor
+5,"C7,C10,C19",10nF,3,Unpolarized capacitor
+6,C8,2.2uF,1,"Polarized capacitor, small US symbol"
+7,C9,22uF,1,"Polarized capacitor, small US symbol"
+8,C15,100pF,1,Unpolarized capacitor
+9,C16,1uF,1,Unpolarized capacitor
+10,C18,22nF,1,Unpolarized capacitor
+11,"D1,D2,D3",1N4148,3,"100V 0.15A standard switching diode, DO-35"
+12,"D4,D5",LED,2,Light emitting diode
+13,"J1,J2",Barrel_Jack,2,DC Barrel Jack
+14,"Q1,Q2",2N3904,2,"0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+15,"R1,R2",47k,2,Resistor
+16,R3,10k,1,Resistor
+17,R4,1K,1,Resistor
+18,"R5,R16",1Meg,2,Resistor
+19,R6,5.6k,1,Resistor
+20,R7,100k,1,Resistor
+21,R8,330,1,Resistor
+22,"R9,R17,RV1,RV4,RV5",10K,5,-- mixed values --
+23,R10,470,1,Resistor
+24,R11,4.7K,1,Resistor
+25,R12,330K,1,Resistor
+26,R13,680,1,Resistor
+27,"R14,R15",22K,2,Resistor
+28,RV2,100K,1,Potentiometer
+29,RV3,500K,1,Potentiometer
+30,SW2,DSP_EN,1,"Push button switch, generic, two pins"
+31,SW3,Chorus_EN,1,"Push button switch, generic, two pins"
+32,"U1,U3,U4",TL072,3,"Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"

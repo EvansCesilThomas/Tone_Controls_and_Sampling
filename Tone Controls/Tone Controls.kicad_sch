@@ -8611,13 +8611,13 @@
 			)
 		)
 		(pin "4"
-			(uuid "f5936572-9987-4cb8-a671-bbf30854299f")
+			(uuid "f5936572-9987-4cb8-a671-bbf3085429a0")
 		)
 		(pin "7"
-			(uuid "2e93a63e-00f1-426a-81b1-e558dbbcc5bb")
+			(uuid "2e93a63e-00f1-426a-81b1-e558dbbcc5bc")
 		)
 		(pin "6"
-			(uuid "352c56a3-4b6b-458f-8769-a71decb7a378")
+			(uuid "352c56a3-4b6b-458f-8769-a71decb7a379")
 		)
 		(pin "2"
 			(uuid "850aae0b-be67-43ab-9faf-7b63e3977a89")
@@ -8626,13 +8626,13 @@
 			(uuid "91e95df8-e766-4923-9455-9028d9015777")
 		)
 		(pin "5"
-			(uuid "4bacd1d9-08b2-4554-b0af-666899aff520")
+			(uuid "4bacd1d9-08b2-4554-b0af-666899aff521")
 		)
 		(pin "3"
 			(uuid "8d9a8eff-1ed8-443f-80ca-cf92d93bb667")
 		)
 		(pin "8"
-			(uuid "a3bcd397-384f-42d2-82e0-83060187dc7e")
+			(uuid "a3bcd397-384f-42d2-82e0-83060187dc7f")
 		)
 		(instances
 			(project "Tone Controls"
