@@ -1,0 +1,14 @@
+LTspice 24.0.12 for Windows
+Circuit: * Z:\home\evans\Downloads\final over drive.asc
+Start Time: Tue Mar 11 14:53:03 2025
+solver = Normal
+Maximum thread count: 2
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Node NC_01 is floating.
+
+WARNING: Less than two connections to node nc_01.  This node is used by c6.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.215 seconds.
+
